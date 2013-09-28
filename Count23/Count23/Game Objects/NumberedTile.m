@@ -11,6 +11,7 @@
 #import "UIColor+Count23.h"
 #import "Count23.h"
 #import "GameScene.h"
+#import "ViewController.h"
 
 @interface NumberedTile()
 @property (nonatomic) NSNumber *number;
@@ -49,7 +50,7 @@
     
     self.bg = [SKShapeNode shapeNodeWithSquareOfWidth: self.width];
     self.bg.antialiased = NO;
-    self.bg.strokeColor = [UIColor grayColor];
+    self.bg.strokeColor = [UIColor majorColor];
     [self addChild:self.bg];
     
     self.label = [SKLabelNode labelNodeWithFontNamed:@"Helvetica Neue Light"];
@@ -107,7 +108,7 @@
             [self disable];
             [self hideNumber];
             [count23 increaseNextCount];
-        }
+        }        
     }
 }
 

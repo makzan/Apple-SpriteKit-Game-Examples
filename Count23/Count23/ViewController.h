@@ -11,4 +11,6 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *pauseView;
+
 @end

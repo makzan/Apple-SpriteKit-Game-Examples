@@ -8,6 +8,7 @@
 
 #import "Tile.h"
 #import "SKShapeNode+Utility.h"
+#import "UIColor+Count23.h"
 
 @interface Tile()
 @property (nonatomic) CGFloat width;
@@ -36,7 +37,7 @@
     
     SKShapeNode *bg = [SKShapeNode shapeNodeWithSquareOfWidth: self.width];
     bg.antialiased = NO;
-    bg.strokeColor = [UIColor grayColor];
+    bg.strokeColor = [UIColor majorColor];
     [self addChild:bg];
 
 }

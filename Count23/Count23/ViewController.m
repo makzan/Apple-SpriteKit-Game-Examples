@@ -9,6 +9,10 @@
 #import "ViewController.h"
 #import "GameScene.h"
 
+@interface ViewController()
+
+@end
+
 @implementation ViewController
 
 - (void)viewDidLoad
@@ -47,5 +51,18 @@
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
 }
+
+- (IBAction)pressedPause:(id)sender {
+  self.pauseView.hidden = NO;
+}
+
+- (IBAction)pressedResume:(id)sender {
+    self.pauseView.hidden = YES;
+}
+
+- (IBAction)pressedExit:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 
 @end

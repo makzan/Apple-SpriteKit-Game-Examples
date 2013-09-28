@@ -41,6 +41,10 @@
 		B2E4D54417F6C6FA001E94C0 /* NSArray+Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E4D54317F6C6FA001E94C0 /* NSArray+Game.m */; };
 		B2E4D54817F6C7BD001E94C0 /* Count23.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E4D54717F6C7BD001E94C0 /* Count23.m */; };
 		B2E4D54B17F6CA0D001E94C0 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E4D54A17F6CA0D001E94C0 /* Tile.m */; };
+		B2E4D54E17F6D642001E94C0 /* pause button.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E4D54C17F6D642001E94C0 /* pause button.png */; };
+		B2E4D54F17F6D642001E94C0 /* pause button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E4D54D17F6D642001E94C0 /* pause button@2x.png */; };
+		B2E4D55217F6DA21001E94C0 /* red button highlight bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E4D55017F6DA21001E94C0 /* red button highlight bg.png */; };
+		B2E4D55317F6DA21001E94C0 /* red button highlight bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E4D55117F6DA21001E94C0 /* red button highlight bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +105,10 @@
 		B2E4D54717F6C7BD001E94C0 /* Count23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Count23.m; path = Models/Count23.m; sourceTree = "<group>"; };
 		B2E4D54917F6CA0D001E94C0 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tile.h; path = "Game Objects/Tile.h"; sourceTree = "<group>"; };
 		B2E4D54A17F6CA0D001E94C0 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tile.m; path = "Game Objects/Tile.m"; sourceTree = "<group>"; };
+		B2E4D54C17F6D642001E94C0 /* pause button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause button.png"; path = "images/pause button.png"; sourceTree = "<group>"; };
+		B2E4D54D17F6D642001E94C0 /* pause button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause button@2x.png"; path = "images/pause button@2x.png"; sourceTree = "<group>"; };
+		B2E4D55017F6DA21001E94C0 /* red button highlight bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red button highlight bg.png"; path = "images/red button highlight bg.png"; sourceTree = "<group>"; };
+		B2E4D55117F6DA21001E94C0 /* red button highlight bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red button highlight bg@2x.png"; path = "images/red button highlight bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,10 +222,16 @@
 		B2E4D51617F6AFBA001E94C0 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B2E4D54C17F6D642001E94C0 /* pause button.png */,
+				B2E4D54D17F6D642001E94C0 /* pause button@2x.png */,
 				B2E4D51917F6AFDC001E94C0 /* end game view.png */,
 				B2E4D51A17F6AFDC001E94C0 /* game pause view.png */,
 				B2E4D51B17F6AFDC001E94C0 /* game view.png */,
 				B2E4D51C17F6AFDC001E94C0 /* root view.png */,
+				B2E4D52917F6B129001E94C0 /* red button bg@2x.png */,
+				B2E4D52617F6B0FD001E94C0 /* red button bg.png */,
+				B2E4D55017F6DA21001E94C0 /* red button highlight bg.png */,
+				B2E4D55117F6DA21001E94C0 /* red button highlight bg@2x.png */,
 				B2E4D53B17F6C0F2001E94C0 /* white button bg.png */,
 				B2E4D53C17F6C0F2001E94C0 /* white button bg@2x.png */,
 			);
@@ -229,8 +243,6 @@
 			children = (
 				B2E4D52217F6AFEC001E94C0 /* about view.png */,
 				B2E4D52417F6B045001E94C0 /* splash screen.png */,
-				B2E4D52917F6B129001E94C0 /* red button bg@2x.png */,
-				B2E4D52617F6B0FD001E94C0 /* red button bg.png */,
 			);
 			name = mocks;
 			sourceTree = "<group>";
@@ -363,8 +375,12 @@
 				B2E4D52017F6AFDC001E94C0 /* game view.png in Resources */,
 				B2582BA417F5D40A005AFFEE /* Main.storyboard in Resources */,
 				B2E4D53E17F6C0F2001E94C0 /* white button bg@2x.png in Resources */,
+				B2E4D54F17F6D642001E94C0 /* pause button@2x.png in Resources */,
+				B2E4D55317F6DA21001E94C0 /* red button highlight bg@2x.png in Resources */,
 				B2E4D52317F6AFEC001E94C0 /* about view.png in Resources */,
+				B2E4D55217F6DA21001E94C0 /* red button highlight bg.png in Resources */,
 				B2E4D53D17F6C0F2001E94C0 /* white button bg.png in Resources */,
+				B2E4D54E17F6D642001E94C0 /* pause button.png in Resources */,
 				B2E4D52B17F6B129001E94C0 /* red button bg@2x.png in Resources */,
 				B2E4D52517F6B045001E94C0 /* splash screen.png in Resources */,
 			);
